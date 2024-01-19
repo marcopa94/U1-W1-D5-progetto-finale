@@ -8,6 +8,8 @@ button {
   border-radius: 4px;
   font-weight: 600;
   color: white;
+  border: 0px;
+  padding: 10px;
 }
 .mario {
   font-weight: 200;
@@ -34,9 +36,8 @@ header {
 main {
   background: rgb(255, 255, 255);
   font-weight: bold;
-  margin-bottom: 1.5em;
+
   align-self: center;
-  box-shadow: 0 3px 3px #444;
 
   max-width: 100%;
 }
