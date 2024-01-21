@@ -138,11 +138,12 @@ h2 {
 }
 footer {
   width: 100%;
-
+  display: flex;
+  justify-content: center;
   background-color: #25a2c3;
   margin-top: 1em;
   font-family: "Montserrat", sans-serif;
-  display: inline-block;
+
   line-height: 1.5;
   border: 1px solid #dee1e3;
 }
@@ -171,4 +172,31 @@ h3 {
   font-size: xx-small;
   margin-bottom: 2px;
   padding-bottom: 2px;
+}
+.indirizzi {
+  width: 280px;
+
+  background-color: #25a2c3;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.indirizzi p {
+  padding: 0px;
+  margin-top: 6px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 6px;
+  font-weight: 400;
+  text-align: left;
+}
+.indirizzi h3 {
+  padding: 0px;
+  margin-top: 6px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  padding: 15px;
+  font-weight: 700;
+  text-align: left;
 }
